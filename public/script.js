@@ -5,6 +5,7 @@ const addButton = document.getElementById('add-button');
 addButton.addEventListener('click', () => {
     const noteText = noteInput.value.trim();
 
+    //d
     if (noteText) {
         const listItem = document.createElement('li');
         listItem.textContent = noteText;
