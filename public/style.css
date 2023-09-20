@@ -1,0 +1,94 @@
+/* Reset some default styles for consistency */
+body, h1, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 1em;
+
+}
+
+.notes {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.notes ul {
+    list-style: none;
+    padding: 0;
+}
+
+#note-label {
+    padding: 20px; /* Added padding to the body */
+    text-align: center;
+
+}
+
+#note-form {
+    align-self: center;
+
+}
+
+.notes li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notes li:hover {
+    background-color: #f5f5f5;
+}
+
+.note-form {
+    margin-top: 20px;
+}
+
+.note-form input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.note-form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.note-form button:hover {
+    background-color: #2980b9;
+}
+
